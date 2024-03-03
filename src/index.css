@@ -1,0 +1,94 @@
+/* Style for the container holding the todo input and list */
+
+body {
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the label */
+.todo-label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Style for the input text box */
+.todo-input {
+  width: calc(
+    100%
+  ); /* Adjusted width to accommodate button padding and border */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for the add button */
+.add-button {
+  background-color: #45a240;
+  color: #fff;
+  border: 1px solid #ccc; /* Added border to match input */
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.add-button:hover {
+  background-color: #008080;
+}
+
+/* Style for the header */
+.todo-header {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Style for the list of todos */
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+/* Style for each todo item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the delete button */
+.delete-button {
+  background-color: #ff6961;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ff4136;
+}
